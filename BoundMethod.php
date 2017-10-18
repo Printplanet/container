@@ -1,6 +1,6 @@
 <?php
 
-namespace PP\Component\Container;
+namespace Printplanet\Component\Container;
 
 use Closure;
 use ReflectionMethod;
