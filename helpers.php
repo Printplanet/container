@@ -1,5 +1,6 @@
 <?php
 
+use Printplanet\Component\Container\Container;
 
 if (! function_exists('app')) {
     /**
@@ -7,7 +8,7 @@ if (! function_exists('app')) {
      *
      * @param  string  $abstract
      * @param  array   $parameters
-     * @return mixed|\Illuminate\Foundation\Application
+     * @return mixed|Container
      */
     function app($abstract = null, array $parameters = array())
     {
